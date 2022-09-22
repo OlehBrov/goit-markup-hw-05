@@ -98,7 +98,7 @@ body {
 }
 
 .active::after {
-  content: '';
+  content: "";
   display: block;
   height: 4px;
   width: 100%;
@@ -110,14 +110,12 @@ body {
   bottom: -29px;
   left: 50%;
   transform: translate(-50%, 0%);
-
 }
 
 .nav-link:hover,
 .nav-link:focus,
 .nav-link.active {
   color: var(--nav-color);
-  
 }
 .header-item:not(:last-child) {
   margin-right: 50px;
@@ -133,7 +131,6 @@ body {
 
 .contacts-icon {
   margin-right: 10px;
-  
 }
 .contact-link {
   display: flex;
@@ -142,13 +139,11 @@ body {
   fill: var(--contacts-color);
   font-style: normal;
   font-weight: 500;
-  
-  
+
   transition-property: color, fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 
 .contact-link:hover,
 .contact-link:focus,
@@ -161,8 +156,8 @@ body {
 /* Hero section */
 
 .hero-section {
-   padding: 200px 0;
-  
+  padding: 200px 0;
+
   background-color: var(--hero-bgc);
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
@@ -222,7 +217,6 @@ body {
 
 .advantages-icon {
   display: block;
-
 }
 .advantage-item {
   display: flex;
@@ -232,7 +226,7 @@ body {
 }
 .adv-icon-box {
   display: flex;
-  background: #F5F4FA;
+  background: #f5f4fa;
   padding: 25px 0;
   justify-content: center;
   border-radius: 4px;
@@ -248,7 +242,6 @@ body {
   color: var(--main-text-color);
   margin-top: 30px;
   margin-bottom: 10px;
-  
 }
 
 .advantage-text {
@@ -272,7 +265,6 @@ body {
 .jobs-container {
   display: flex;
   width: calc((100%-60px) / 3);
-  
 }
 .jobs-item:not(:first-child) {
   margin-left: 30px;
@@ -283,25 +275,24 @@ body {
 }
 
 .works {
-font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 
-text-align: center;
+  text-align: center;
 
-width: 100%;
-padding: 27px 0px;
+  width: 100%;
+  padding: 27px 0px;
 
-color: var(--white-text);
-background-color: rgba(47, 48, 58, 0.8);;
+  color: var(--white-text);
+  background-color: rgba(47, 48, 58, 0.8);
 
-position: absolute;
-bottom: 0px;
-left: 50%; 
-transform: translate(-50%, 0%);
-
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translate(-50%, 0%);
 }
 
 /* Team section */
@@ -396,24 +387,23 @@ transform: translate(-50%, 0%);
 
 .client-item {
   display: flex;
-  width: calc((100%-150px)/6);
-  
- }
+  width: calc((100%-150px) / 6);
+}
 
 .client-link {
-display: flex;
-flex-grow: 1;
+  display: flex;
+  flex-grow: 1;
 
-justify-content: center;
-align-items: center;
-padding: 15px 0;
-border: 1px solid rgba(175, 177, 184, 1);
-border-radius: 4px;
-fill: #AFB1B8;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+  border: 1px solid rgba(175, 177, 184, 1);
+  border-radius: 4px;
+  fill: #afb1b8;
 
-transition-property: border, fill;
-transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: border, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-item:not(:last-child) {
@@ -422,8 +412,8 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 .client-link:hover,
 .client-link:focus {
-fill: #2196f3;
-border: 1px solid #2196f3;
+  fill: #2196f3;
+  border: 1px solid #2196f3;
 }
 /* FOOTER */
 .footer-container {
@@ -462,8 +452,6 @@ border: 1px solid #2196f3;
   font-style: normal;
 }
 
-
-
 .footer-social {
   display: flex;
 }
@@ -479,7 +467,6 @@ border: 1px solid #2196f3;
 .join-section {
   display: block;
   margin-left: 70px;
-
 }
 
 .footer-social-link {
@@ -491,7 +478,7 @@ border: 1px solid #2196f3;
 
   border: none;
   border-radius: 50%;
-  
+
   justify-content: center;
   align-items: center;
 
@@ -567,14 +554,12 @@ PORTFOLIO PAGE
 .product-card:hover,
 .product-card:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16); 
-  }
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 
 .button {
   cursor: pointer;
 }
-
-
 
 .product-text {
   border: 1px solid #eeeeee;
