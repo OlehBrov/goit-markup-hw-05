@@ -88,11 +88,16 @@ body {
   line-height: 1.1;
   display: block;
   padding: 5px 0;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-link:hover,
 .nav-link:focus,
 .nav-link.active {
   color: var(--nav-color);
+  
 }
 .header-item:not(:last-child) {
   margin-right: 50px;
@@ -117,7 +122,13 @@ body {
   fill: var(--contacts-color);
   font-style: normal;
   font-weight: 500;
+  
+  
+  transition-property: color, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 
 .contact-link:hover,
 .contact-link:focus,
@@ -314,6 +325,10 @@ body {
   border-radius: 50%;
   justify-content: center;
   align-items: center;
+
+  transition-property: background-color, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-link:hover,
 .social-link:focus {
@@ -349,6 +364,9 @@ border: 1px solid rgba(175, 177, 184, 1);
 border-radius: 4px;
 fill: #AFB1B8;
 
+transition-property: border, fill;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-item:not(:last-child) {
@@ -429,11 +447,16 @@ border: 1px solid #2196f3;
   
   justify-content: center;
   align-items: center;
+
+  transition-property: background-color, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-item:not(:last-child) {
   margin-right: 10px;
 }
+
 .footer-social-link:hover,
 .footer-social-link:focus {
   fill: var(--white-text);
@@ -463,6 +486,10 @@ PORTFOLIO PAGE
 
   padding: 6px 22px;
   display: block;
+
+  transition-property: background-color, color, filter;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .filter-item:not(:last-child) {
@@ -485,6 +512,10 @@ PORTFOLIO PAGE
 
 .product-card {
   display: block;
+
+  transition-property: box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .product-card:hover,
 .product-card:focus {
