@@ -93,6 +93,26 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.header-item {
+  position: relative;
+}
+
+.active::after {
+  content: '';
+  display: block;
+  height: 4px;
+  width: 100%;
+  background-color: #2196f3;
+
+  border-radius: 2px;
+
+  position: absolute;
+  bottom: -29px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+
+}
+
 .nav-link:hover,
 .nav-link:focus,
 .nav-link.active {
