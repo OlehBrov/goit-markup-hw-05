@@ -57,7 +57,7 @@
       <div class="container hero-background">
         <h1 class="hero-header">Ефективні рішення для вашого бізнесу</h1>
 
-        <button type="button" value="make-order" class="booking-btn">
+        <button type="button" value="make-order" class="booking-btn" data-modal-open>
           Замовити послугу
         </button>
       </div>
@@ -445,6 +445,16 @@
       </div>
     </div>
   </footer>
+
+  <div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+      <img src="./images/make-order.jpg" alt="Take your order" class="order-bcg">
+      <button type="button" class="modal-btn" data-modal-close>Not now</button>
+
+
+    </div>
+  </div>
+  <script src="./modal.js"></script>
 </body>
 
 </html>
