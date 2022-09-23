@@ -74,6 +74,8 @@ body {
   padding: 20px 40px;
   background-color: rgba(33, 150, 243, 0.9);
 
+  cursor: pointer;
+
   border: none;
   border-radius: 4px;
   box-shadow: 27px 38px 26px -11px rgba(0, 0, 0, 0.71);
@@ -82,12 +84,17 @@ body {
   font-family: inherit;
   font-weight: 900;
   letter-spacing: 0.06em;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.71);
 
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-btn:hover {
   transform: translate(-50%, 0) scale(1.1);
+}
+
+.modal-btn:active {
+ transform: translate(-50%, 4px) ;
 }
 
 .order-bcg {
@@ -168,13 +175,15 @@ body {
   bottom: -29px;
   left: 50%;
   transform: translate(-50%, 0%);
+ 
+ 
 }
-
 .nav-link:hover,
 .nav-link:focus,
 .nav-link.active {
   color: var(--nav-color);
 }
+
 .header-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -262,8 +271,19 @@ body {
   width: 216px;
 
   cursor: pointer;
+  scale: (1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.booking-btn:hover,
+.booking-btn:focus {
+ transform: scale(1.1);
 }
 
+.booking-btn:active {
+  background-color: var(--nav-color);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
 /* ADVANTAGES SECTION */
 .advantages-section {
   padding: 94px 0;
