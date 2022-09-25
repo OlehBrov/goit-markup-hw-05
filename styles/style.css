@@ -111,10 +111,12 @@ body {
 .header {
   background-color: var(--white-text);
   border-bottom: 1px solid #ececec;
-  padding-top: 24px;
+  
   
 }
-
+.header-logo {
+  padding-top: 24px;
+}
 .header-studio-word {
   line-height: 1.2;
   color: var(--black);
@@ -156,7 +158,7 @@ body {
   font-weight: 500;
   line-height: 1.1;
   display: block;
-  padding: 5px 0 28px 0;
+  padding: 28px 0;
 
   transition-property: color;
   transition-duration: 250ms;
@@ -195,6 +197,7 @@ body {
 .contacts {
   margin-left: auto;
   align-items: baseline;
+  padding-top: 24px;
 }
 
 .contact-item:not(:last-child) {
@@ -630,20 +633,14 @@ PORTFOLIO PAGE
   gap: 30px;
 }
 
-.products-thumb {
-  position: relative;
-  overflow: hidden;
+.card-thumb {
+ position: relative;
+ overflow: hidden;
 }
 
-.products-thumb.flip {
-  background-color: transparent;
-  width: 100%;
-  height: 100%;
-  perspective: 600px;
-}
 .product-card {
   display: block;
-
+ 
   transition-property: box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -655,7 +652,8 @@ PORTFOLIO PAGE
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.product-item:hover .product-card-text {
+.product-card:hover .product-card-text,
+.product-card:focus .product-card-text {
   transform: translateY(-100%);
 }
 
